@@ -9,6 +9,10 @@
 ## 制作方法
 本项目中的双语版本文档是通过 [BabelDOC](https://github.com/funstory-ai/BabelDOC) 和DeepSeek API转换制作而成的。
 
+## BableDOC具体使用命令
+uv run babeldoc --enhance-compatibility --openai --openai-model "deepseek-chat" --openai-base-url "https://api.deepseek.com" --openai-api-key "your key"  --watermark-output-mode=no_watermark  --no-mono  --output c:/ac/babledoc/files --files c:/ac/babledoc/filename.pdf 
+
+
 ## 参与贡献
 欢迎大家提交反馈、改进翻译或贡献新的观测挑战报告。如果有兴趣提交更新，请发起 Pull Request。
 
